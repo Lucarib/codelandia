@@ -1,6 +1,6 @@
 # Codelândia 
 
-![preview](./assents/preivew.png)
+![preview](././assents/preivew.png)
 
 > Trilha 
 
