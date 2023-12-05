@@ -1,0 +1,48 @@
+.header {
+  max-width: 1920px;
+  height: 292px;
+  background-color: #17171a;
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+}
+.img {
+  max-width: 100%;
+  display: block;
+  padding: 64px;
+}
+.divBusca {
+  width: 1216px;
+  height: 64px;
+  border-radius: 4px;
+  border: #afabb6 1px;
+  background-color: #252529;
+  align-items: center;
+  justify-self: center;
+  padding: 0;
+}
+.divBusca img {
+  max-width: 100px;
+  height: 32px;
+  float: left;
+  margin: 15px;
+}
+.txtBusca {
+  width: 94.8%;
+  height: 64px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  color: #afabb6;
+}
+.txtBusca::before {
+  color: #fff;
+}
+@media (max-width: 800px) {
+  .header {
+    width: 100vw;
+  }
+}
